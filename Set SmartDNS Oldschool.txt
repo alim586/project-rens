@@ -1,0 +1,6 @@
+#!/bin/bash
+networksetup -setdnsservers Wi-Fi 46.166.189.68 54.93.173.153
+open -a "Safari" https://www.smartdnsproxy.com/api/IP/update/5ac07236510146f
+sleep 5s
+osascript -e 'quit app "Safari"'
+osascript -e 'quit app "Terminal"'
